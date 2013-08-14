@@ -1,8 +1,16 @@
 $(document).ready(function() {
 		
 		// ANUJ -- adding responsive restraint for hover
-		
-		if($(window).width() > 1200) {
+		// SEBASTIAN -- edited so that it only triggers on touch devices
+
+  var touchdevice = is_touch_device();
+
+  function is_touch_device() {
+    return !!('ontouchstart' in window) ? 1 : 0;
+  }
+  
+  
+		if(touchdevice === 1) {
 		//menu code  
 		$('.navmain li').hover(
 			

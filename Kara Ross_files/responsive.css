@@ -36,7 +36,7 @@
 
 @media (max-width: 1200px) {
 	
-	#res-expand-drop,
+.touch #res-expand-drop,
 	#res-go-back {
 		display: block;
 		height: 30px;
@@ -46,51 +46,51 @@
 		cursor: pointer;
 		border: 1px solid #d9a441;	
 	}
-		#res-expand-drop img,
-		#res-go-back img {
+.touch #res-expand-drop img,
+.touch #res-go-back img {
 			height: 100%;
 			width: 100%;	
 		}
 	
-	#res-go-back {
+.touch #res-go-back {
 		display: none;
 	}
 		
-	.stillloading {
+.touch .stillloading {
 		display: none;	
 	}
 	
-	.filterbar-bg {
+.touch .filterbar-bg {
 		display: none;
 	}
 	
-	.persnav {
+.touch .persnav {
 		background: none repeat scroll 0 0 rgba(197, 171, 99, 1);;
 		height: auto;	
 	}
 	
-	.persnav > .navmain > li {
+.touch .persnav > .navmain > li {
 		float: none;	
 		width: 100%;
 		padding: 0px;
 	}
 	
-	.persnav > .navmain > li.move-top {
+.touch .persnav > .navmain > li.move-top {
 		position: absolute;
 		top: 0px;
 	}
 	
-	#wrapper,
-	.persnav,
-	.persnav > .navmain,
-	.footer {
+.touch #wrapper,
+.touch .persnav,
+.touch .persnav > .navmain,
+.touch .footer {
 		margin-top: 0px;
 		max-width: 100%;
 		min-width: 0px;	
 		position: relative;
 	}
 	
-	#sublogobg {
+.touch #sublogobg {
 		background: #fff;
 		
 		left: 0px;
@@ -101,29 +101,29 @@
 		width: 100%;
 	}
 	
-	.persnav > .navmain {
+.touch .persnav > .navmain {
 		margin-top: 0px;
 		position: fixed;
 		top: 63px;
 	}
 	
-	.hide {
+.touch .hide {
 		display: none;	
 	}
 	
-	.persnav > .navmain li {
+.touch .persnav > .navmain li {
 		margin: 0px;	
 	}
 	
-	.navmain > li > div {
+.touch .navmain > li > div {
 		background: none repeat scroll 0 0 rgba(197, 171, 99, 1);	
 	}
 	
-	.navmain > li > div:hover {
+.touch .navmain > li > div:hover {
 		background: none repeat scroll 0 0 rgba(197, 171, 99, 1);	
 	}
 	
-	#sublogobg h1 {
+.touch #sublogobg h1 {
 		text-align: left;
 		top: 0px;
 		left: 0px;
@@ -131,14 +131,14 @@
 		height: auto;
 	}
 	
-	#sublogobg h1 img {
+.touch #sublogobg h1 img {
 		height: 40px;
 		width: 90px;
 		margin-left: 10px;
 		margin-top: 10px;
 	}
 	
-	.filterbar {
+.touch .filterbar {
 		width: 100%;
 		max-width: 100%;
 		height: auto;	
@@ -149,23 +149,23 @@
 		margin: -12px 0 0;
 	}
 	
-	ul.submenu.move-left {
+.touch ul.submenu.move-left {
 		position: absolute; left: 100%; top: 0px;
 	}
 
-	ul.navmain.move-left {
+.touch ul.navmain.move-left {
 		margin-left: -100%;
 	}
 	
-	.navmain > li > div {
+.touch .navmain > li > div {
 		height: 30px;	
 	}
 	
-	.persnav > .navmain > li {
+.touch .persnav > .navmain > li {
 		position: static;	
 	}
 	
-	#res-fix {
+.touch #res-fix {
 		position: relative;	
 	}
 	

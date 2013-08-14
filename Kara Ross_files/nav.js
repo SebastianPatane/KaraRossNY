@@ -1,14 +1,20 @@
-// ANUJ -- a lot of changes were made in here including added click functions at lines 28 and 35 as well as if statements to check the browser size
+// SEBASTIAN - changed detection from browser size to touch screen to trigger
+// responsive menu on touch devices
 
 $(document).ready(function () { 
 
 	$('ul.subcateg').hide();//slidedown menu
 	$('ul.submenu').hide();//slidedown menu
 	
-	
+	 var touchdevice = is_touch_device();
+
+  function is_touch_device() {
+    return !!('ontouchstart' in window) ? 1 : 0;
+  }
+
 	$('ul.navmain > li').click( function () {
 		
-		if($(window).width() < 1200) {
+		if(touchdevice === 1) {
 			
 			if($(this).has("ul.submenu")){
 				$(this).find("ul.submenu").addClass("move-left").show();
@@ -22,10 +28,7 @@ $(document).ready(function () {
 		
 	});
 	
-	if($(window).width() < 1200) {
-		$("body").addClass("touch");
-	};
-	
+
 	$("#res-go-back img").click( function() {
 		$("ul.navmain").removeClass("move-left");
 		$("ul.submenu").removeClass("move-left").hide();	

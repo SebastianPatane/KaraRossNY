@@ -39,6 +39,10 @@
 $(document).ready(function(){
 	if (!window.console) console = {log: function() {}}
 	var touchdevice = is_touch_device();
+	// SEBASTIAN: Added .touch class to body on touch screens
+  if(touchdevice === 1) { 
+    $('body').addClass('touch');
+  }
 });
 function is_touch_device() {
   return !!('ontouchstart' in window) ? 1 : 0;
