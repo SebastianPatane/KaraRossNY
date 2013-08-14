@@ -34,7 +34,7 @@
 	
 }
 
-@media (max-width: 810px) {
+@media (max-width: 1200px) {
 	
 	#res-expand-drop,
 	#res-go-back {
@@ -43,7 +43,8 @@
 		width: 30px;
 		float: right;
 		margin: 13px 10px;
-		cursor: pointer;	
+		cursor: pointer;
+		border: 1px solid #d9a441;	
 	}
 		#res-expand-drop img,
 		#res-go-back img {

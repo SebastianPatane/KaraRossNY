@@ -1,3 +1,4 @@
+// ANUJ -- a lot of changes were made in here including added click functions at lines 28 and 35 as well as if statements to check the browser size
 
 $(document).ready(function () { 
 
@@ -7,7 +8,7 @@ $(document).ready(function () {
 	
 	$('ul.navmain > li').click( function () {
 		
-		if($(window).width() < 810) {
+		if($(window).width() < 1200) {
 			
 			if($(this).has("ul.submenu")){
 				$(this).find("ul.submenu").addClass("move-left").show();
@@ -21,7 +22,7 @@ $(document).ready(function () {
 		
 	});
 	
-	if($(window).width() < 810) {
+	if($(window).width() < 1200) {
 		$("body").addClass("touch");
 	};
 	

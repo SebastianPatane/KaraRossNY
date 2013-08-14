@@ -1,8 +1,8 @@
 $(document).ready(function() {
 		
-		<!-- ANUJ -- adding responsive restraint for hover -->
+		// ANUJ -- adding responsive restraint for hover
 		
-		if($(window).width() > 810) {
+		if($(window).width() > 1200) {
 		//menu code  
 		$('.navmain li').hover(
 			
