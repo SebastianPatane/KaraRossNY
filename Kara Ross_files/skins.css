@@ -1,0 +1,716 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*persistent*/
+
+
+
+
+
+body{
+	background-color:#ffffff;
+	font-family:'Didot', Cardo, serif;
+	
+	
+}
+
+p{line-height:1.3;}
+
+a{color:#999;}
+.bg-image{
+	height:100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bg-image2 {
+	height:100%;
+	position: absolute;
+	top: 0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:0 auto;
+}
+
+
+#wrapper{
+	
+	min-width:810px;
+	display:block;
+	
+	
+	}
+	
+/*---------about page------------*/	
+		
+	
+
+#abouttext{ 
+font-size:14px;
+margin-top:160px;
+height: 65%;
+width:45%;
+	position:absolute;
+	margin-left:45%;
+	padding: 0 5px 50px 5px;
+	text-align:justify;
+	overflow:hidden;
+	
+	
+	
+} 
+
+#abouttext p{ 
+	font-family: Didot, Cardo, serif;
+	color: #666633;
+	line-height:150%}
+
+
+
+/*-------SKINS AND STONES pages---------*/
+
+#textscrollera{
+padding-bottom:40px;
+margin: 0 auto;margin-top:160px;
+}
+#swrap{
+	
+	position:relative;
+	top:165px;
+	
+	left:0;
+	right:0;
+
+margin: 0 auto;
+width:810px;
+height:320px;
+min-height:320px;
+padding-bottom:120px;
+
+	
+	
+	
+}
+#sselector{
+	width: 11%;
+	height:100%;
+	float:left;
+}
+.skinpreview{
+	width:50%;
+	float:left;
+	margin-left:20px;
+}
+
+.preview img{
+	max-width:200px;
+	max-height: 130%;
+	
+}
+.skinpreview img{
+	height:auto;
+	width:100%;
+	max-width:100%;}
+
+.stonepreview{
+	width:200px;
+	float:left;
+	margin-left:100px;
+	
+}
+.skinpreview{
+	
+	margin-left:110px;
+	
+}
+.stextside{
+	font-family: Didot, Cardo, serif;
+	font-size:14px;
+	width:36%;
+	float:right;
+	padding-left: 20px;
+	
+}
+.stonetextside{
+	font-family: Didot, Cardo, serif;
+	font-size:14px;
+	width:55%;
+	float:left;
+	padding-left: 40px;
+	
+}
+.stextside>.features{
+	font-weight:500;
+	
+}
+.sh2{
+	font-weight:500;
+	font-family:Didot, Cardo, serif;
+	color: #cc9933;
+	margin:0;
+	margin-bottom:10px;
+	padding:0;
+	
+}
+#spacer{
+	
+	height:2px;
+	width:100%;
+}
+.ssbx{
+	margin-top:30px;
+	width:100%;
+	clear:both;
+	height:80px;
+	background-color:white;
+	
+}
+.ssbx>ul>li{
+	
+	
+	padding:0;
+}
+
+#stones-selector{
+	
+	position:relative;
+	top:320px;
+	width:100%;
+	margin-bottom:40px;
+		text-align:center;
+}
+.thumbs{display:block; width:1100px;height:110px;margin:0;padding:0;}
+
+
+
+#stones-selector ul {
+	margin:0 auto;
+	padding:0;
+	
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	user-select:none;
+}
+#stones-selector ul li{
+	
+	list-style-type: none;
+	display:inline-block;
+	margin:0 3px;
+	border:3px solid white;
+	
+	
+}
+
+#stones-selector ul li.selected-stone{
+	
+	
+	border:3px solid #d9a825;
+	
+}
+
+#stones-selector ul li img{
+	
+	height:100%;
+	
+}
+#stones-selector.carouselskins ul li{
+	
+	overflow:hidden;
+	margin-right:10px;
+	
+}
+
+
+#previewimg{
+	
+	background: url(../img/skins/skin03.jpg);
+	
+}
+
+
+#swrap ul#allstones li.astone{
+	position:absolute;
+	top:0;
+	left:0;
+	list-style-type:none;
+}
+
+
+
+
+
+
+/*---------inspiration page------------*/
+
+
+#iwrap{
+	text-align:center;
+width:100%;
+margin: 200px auto 0 auto;
+ height:50%;
+	
+}
+.item {
+  width: 260px;
+
+ 
+}
+.item img{
+  width: 100%;
+ 
+}
+
+
+h2, h3{
+	font-family:Didot, Cardo, serif;}
+	
+	.pshipping{
+		text-transform:uppercase;
+		font-style:italic;
+		font-weight: normal;
+		text-align:center;
+		color:#000;
+		margin-top:30px;
+		}
+		
+.pheading{
+	font-style:italic;
+	font-size:26px;
+	font-weight:normal;
+	margin:0;
+}
+		
+		
+		
+		
+/*-------JEWELRY/SHOP----------*/	
+#jwrap{
+	
+	position:relative;
+	top:0px;
+	height:100%;
+	min-height:350px;
+	margin:180px auto 0 auto;
+	padding-bottom:50px;
+}
+
+#cwrap{
+	
+	position:relative;
+	top:160px;
+	height:100%;
+	min-height:350px;
+	margin: 0 auto;
+	padding-bottom:50px;
+	
+
+	
+}
+
+
+#jwrap a, #cwrap a{margin:0;
+padding:0;}
+
+.jbox:last-child{
+	
+	margin-bottom:50px;
+}
+.cbox:last-child{
+	
+	margin-bottom:50px;
+}
+
+.centered{
+	
+margin:0 auto;}
+
+.jbox{
+	height: 355px;
+	
+	width:256px;
+	margin:2px;
+	text-align:center;
+
+}
+
+.prodbox{
+	width:256px;
+	height:310px;
+	display:block;
+	margin:0;
+	padding:0;
+	border: 1px solid #ccc;
+}
+.pricebox{
+	width:246px;
+	height:35px;
+	padding:5px;
+	display:block;
+	text-align:center;
+	font-family: Didot, Cardo, serif;
+	color:#666; font-size:13px;
+	line-height:14px;
+}
+
+.origprice, .saleprice{
+	display:inline-block;
+	}
+	.origprice{
+		
+		text-decoration: line-through;
+	}
+	.saleprice{
+		color:red;
+	}
+.cbox{
+	
+	max-width:256px;
+	text-align:center;
+}
+.jbox img{
+max-width:100%;
+max-height:300px;
+
+}
+.cbox img{
+max-width:100%;
+
+
+}
+.jbox{
+	overflow:hidden;
+	/*border: 1px solid #ccc;*/
+}
+
+.j-ad{
+	height:654px;
+	width:516px;
+	overflow:hidden;
+	
+	/*margin:2px 5px 6px 5px;*/
+	
+}
+.j-ad a{
+	width:100%;
+	
+	/*margin:2px 5px 6px 5px;*/
+	
+}
+.j-ad img{
+	height:654px;
+	width:516px;
+	
+	/*margin:2px 5px 6px 5px;*/
+	
+}
+
+#filterby{
+	width:40%;
+	height:30px;
+	display:block;
+	position:absolute;
+	left:5px;
+	top:60px;
+	color: #999;
+	font-size:11px;
+	line-height:20px;
+	
+}
+#sortby{
+	width:200px;
+	height:30px;
+	display:block;
+	position:absolute;
+	text-align:right;
+	right:10px;
+	top:65px;
+	font-size:11px;
+	line-height:20px;
+	color:#999;
+	
+}
+
+.ui-tooltip-shadow{
+	-webkit-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+	box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+	
+		
+		
+
+#sortby a{ color:#999;}
+
+
+
+
+#filterby ul{
+float:left;
+list-style-type:none;
+margin 0 0 0 10px;
+padding: 0;
+color: #999;
+	
+}
+#filterby li{
+float:left;
+margin: 0px 0 0 10px;
+	
+}
+ul.filterby>li.selected a{
+	color:black;
+
+
+	
+}
+
+#filterby li.clr-thumbs{
+	margin-top:0px;
+
+	
+}
+
+
+.colorfltr{float:left;}
+		
+	
+/*-------MISC/persistent----------*/
+		
+		
+.pagecontent{
+	
+	position: absolute;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	padding-top:100px;
+}
+
+.clearfix:after {
+	
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	
+}
+	
+.clearfix {display: inline-block;}
+
+    
+
+#viewbtn{
+	width: 100px;
+	height:24px;
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:10000;
+	font-size:13px;
+	text-align:center;
+	padding-top:5px;
+}
+
+
+
+
+.earringtype{
+	
+	cursor:pointer;
+	margin: 0 5px 0 0;
+	font-weight:bold;
+}
+
+.earringtype:hover{
+	text-decoration:underline;
+	
+}
+
+
+.earringtype.filterbythis{
+	text-decoration:underline;}
+
+
+.filterbar{
+	
+	margin-left:5px;
+	height:50px;
+	position:fixed;
+	top:75px;
+	z-index:10000;
+	max-width:360px;}
+	
+	.filterby a{
+
+
+font-style:normal;
+margin:0;
+padding:0;
+text-decoration: none;
+	
+}
+
+.filterby a:hover{
+
+text-decoration: underline;}
+	
+	ul.filterby>li{
+		font-size:13px;
+		margin-right:10px;
+		float:left;
+		list-style-type:none;
+		line-height:18px;
+		font-style:italic;
+		/*font-family:Arial, Helvetica, sans-serif;*/
+		}
+		
+		
+		ul.filterby>li>a{
+		text-decoration:none;
+		font-style:italic;
+		color: #373306;
+		font-weight:bold;
+		}
+	
+	
+	.clr-thumbs{
+		clear:both;
+	}
+	.clr-thumbs>div{
+	 float:left;
+	 margin-right:10px;
+	}
+
+.clr-thumbs>div.color{
+	width:16px;
+	height:20px;
+	overflow:hidden;
+	display:block;
+	cursor:pointer;
+	padding-bottom: 3px;
+	
+	margin-right:6px;
+}
+.clr-thumbs>div.color img{
+	margin:0;
+	padding:0;
+}
+
+
+div.filterbythis{
+	border-bottom:2px solid #ccc;
+}
+
+	.stillloading{
+		width:200px;
+		height:100px;
+		display:block;
+		position:absolute;
+		top:130px;
+		left:50%;
+		margin-left:-100px;
+		text-align:center;
+		}
+		
+.stillloading-getmore{
+	position: absolute;
+	bottom: 40px;
+	width: 100%;
+	height: 85px;
+	text-align: center;
+	background: white;
+	border-radius: 4px;
+	padding: 5px;
+}
+		
+		
+ul.filterby>li.catname{
+			width:200px;
+			clear:both;
+		}		
+ul.filterby>li.catname>a{
+			/*font-size:11px;*/
+			
+			position:relative;
+			
+		}
+		ul.filterby>li.catname>a:hover{
+			color:#666;
+		}
+		
+		.nomatches{
+		
+			text-align:center;
+			font-size: 12px;
+			text-transform:uppercase;
+			color:#666;
+			
+		}
+		
+		.carrot{
+			
+			/*font-size:13px;*/
+			text-transform:capitalize;
+			color:#666;
+			text-shadow: 1px 1px white;
+			
+			}
+			
+			/*stockists*/
+			
+			
+			.storeclass{
+				font-weight:bold;}
+				
+				.stockist{
+					margin: 20px 10px 0 10px;
+					display:inline-block;
+					height:80px;
+					
+					vertical-align:top;
+					
+					}
+					
+					.stockist>div{
+					display:block;
+					height:20px;
+					}
+				
+				.plazaname{
+				
+					}
+				
+				
+				.storename{
+					font-weight:bold;
+					}
+				
+				
+				.cityname{
+					
+					}
+				
+				
+				.storephone{
+					
+					}
+			
+			.origpricebig{
+				text-decoration:line-through;}
+				
+				.saleprice{
+					color: red;}
+					
+					
+					
+					
+					/*--------------------*/
+					
+					
+					

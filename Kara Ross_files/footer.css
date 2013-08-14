@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* -------- footer -------- */
+
+
+.footer {
+	position: fixed;
+	bottom:0px;
+	height:56px;
+	width:100%;
+		min-width:1000px;
+	/*position: absolute;
+	z-index: 300;
+	width: 100%;
+
+	height:45px;
+	background: rgba(255, 255, 255, 0.8);*/
+	background-color:white;
+	min-width:600px;
+	z-index:99999;
+	font-family:Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight:normal;
+text-transform:uppercase;
+color:#999;
+-webkit-user-select:none;
+-moz-user-select:none;
+ -ms-user-select: none; 
+	
+}
+
+.footer a{
+	font-family:Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight:normal;
+text-transform:uppercase;
+color:#666;
+font-style:normal;
+text-decoration:none;
+}
+
+
+.bgfooter {
+	text-align: center;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	position:relative;
+	font-weight:normal;
+	padding-top:-5px;
+	position:relative;
+	
+	
+}
+
+.bgfooter2 {
+	text-align: center;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	position:relative;
+	
+}
+
+
+.bgfooterleft {
+	text-align: left;
+	padding-left:5px;
+	padding-bottom: 3px;
+	text-wrap:none;
+	font-weight:normal;
+	font-size:9px;
+}
+
+
+.bgfooterleft ul{
+	margin:0;
+	float:left;
+	-webkit-padding-start: 0px;
+}
+
+.bgfooterright {
+	text-align: right;
+	padding-top: 5px;
+	padding-right:5px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+	font-weight:normal;
+}
+.stockistslink img{margin-top:-5px;}
+.shoppingbaglink img{margin-top:-9px;}
+
+
+
+.footer ul li{
+	/*display: inline-block;*/
+	list-style-type: none;
+	float:left;
+	display:block;
+	margin: 0 3px;
+	font-size:10px;
+}
+
+
+.to-karaross{
+
+	  -moz-box-shadow:    0px 0px 3px 1px #ccc;
+  -webkit-box-shadow: 0px 0px 3px 1px #ccc;
+  box-shadow:         0px 0px 3px 1px #ccc;
+
+}
+
+
+
+
+
+#sociallinks ul{ float:right; }
+#sociallinks li a{
+margin-top:3px;
+
+}
+#sociallinks ul li a{
+
+   height:20px; width:20px;
+  display:block;
+  float:left;
+  
+}
+#sociallinks li.ft0 img{float:left;
+width:30px;height:20px;
+}
+#sociallinks li.ft0 a{
+width:30px;
+height:20px;margin-top:-3px;
+margin-right:3px
+}
+#sociallinks li.ft0{ 
+}
+#sociallinks li.ft0 input{float:left; margin-top:0px; text-transform:uppercase; text-align:center; font-size:9px; color:#999;}
+
+
+#sociallinks li.custcare a{
+ background:url('../../images/page/45/ftr/tw.png') no-repeat 0 0;
+}
+
+#sociallinks li.twitter a{
+
+}
+
+#sociallinks li.facebook a{
+
+}
+
+#sociallinks li.tumbler a{
+
+}
+#sociallinks li.pinterest a{
+
+}
+#sociallinks li.youtube a{
+ width:20px;
+}
+#sociallinks li.zindigo{
+font-size:9px;
+ width:113px;
+ margin-top:4px;
+ color:#666;
+}
+
+.bgfooter img{
+margin-top:-2px;}
+	
+	
+	.shippinglink2 img{
+		margin-top:-3px;
+		
+	}
