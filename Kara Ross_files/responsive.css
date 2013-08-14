@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* -------- responsive -------- */
+
+#res-expand-drop,
+#res-go-back {
+	display: none;	
+}
+
+.persnav > .navmain{
+
+	position: absolute;
+	
+	width:100%;
+	min-width:1250px;
+/*margin-left:1.3%;*/
+	padding:0;
+	z-index:10003;
+	
+}
+.persnav >.navmain > li{
+	
+ /*set 2*/
+	position:relative;
+	margin:0 5px 5px 0; padding: 0 3px; width:12%; height:30px;
+	z-index:10003;
+	display: block;
+	float:left;
+	font-family: Didot;
+	z-index:100;
+	font-style: italic;
+	
+	
+}
+
+@media (max-width: 810px) {
+	
+	#res-expand-drop,
+	#res-go-back {
+		display: block;
+		height: 30px;
+		width: 30px;
+		float: right;
+		margin: 13px 10px;
+		cursor: pointer;	
+	}
+		#res-expand-drop img,
+		#res-go-back img {
+			height: 100%;
+			width: 100%;	
+		}
+	
+	#res-go-back {
+		display: none;
+	}
+		
+	.stillloading {
+		display: none;	
+	}
+	
+	.filterbar-bg {
+		display: none;
+	}
+	
+	.persnav {
+		background: none repeat scroll 0 0 rgba(197, 171, 99, 1);;
+		height: auto;	
+	}
+	
+	.persnav > .navmain > li {
+		float: none;	
+		width: 100%;
+		padding: 0px;
+	}
+	
+	.persnav > .navmain > li.move-top {
+		position: absolute;
+		top: 0px;
+	}
+	
+	#wrapper,
+	.persnav,
+	.persnav > .navmain,
+	.footer {
+		margin-top: 0px;
+		max-width: 100%;
+		min-width: 0px;	
+		position: relative;
+	}
+	
+	#sublogobg {
+		background: #fff;
+		
+		left: 0px;
+		margin: 0px 0px 0px 0px;
+		right: auto;
+		top: 0px;
+		height: 63px;
+		width: 100%;
+	}
+	
+	.persnav > .navmain {
+		margin-top: 0px;
+		position: fixed;
+		top: 63px;
+	}
+	
+	.hide {
+		display: none;	
+	}
+	
+	.persnav > .navmain li {
+		margin: 0px;	
+	}
+	
+	.navmain > li > div {
+		background: none repeat scroll 0 0 rgba(197, 171, 99, 1);	
+	}
+	
+	.navmain > li > div:hover {
+		background: none repeat scroll 0 0 rgba(197, 171, 99, 1);	
+	}
+	
+	#sublogobg h1 {
+		text-align: left;
+		top: 0px;
+		left: 0px;
+		margin: 0px;	
+		height: auto;
+	}
+	
+	#sublogobg h1 img {
+		height: 40px;
+		width: 90px;
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	
+	.filterbar {
+		width: 100%;
+		max-width: 100%;
+		height: auto;	
+		border-bottom: 1px solid #ddd;
+		border-top: 1px solid #ddd;
+		padding: 10px 10px;
+		background: none repeat scroll 0 0 rgba(255, 255, 255, .7);
+		margin: -12px 0 0;
+	}
+	
+	ul.submenu.move-left {
+		position: absolute; left: 100%; top: 0px;
+	}
+
+	ul.navmain.move-left {
+		margin-left: -100%;
+	}
+	
+	.navmain > li > div {
+		height: 30px;	
+	}
+	
+	.persnav > .navmain > li {
+		position: static;	
+	}
+	
+	#res-fix {
+		position: relative;	
+	}
+	
+}
