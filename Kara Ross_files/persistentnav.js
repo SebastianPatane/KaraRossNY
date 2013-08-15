@@ -10,7 +10,7 @@ $(document).ready(function() {
   }
   
   
-		if(touchdevice === 1) {
+		if(touchdevice === 0) {
 		//menu code  
 		$('.navmain li').hover(
 			

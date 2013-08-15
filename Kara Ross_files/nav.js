@@ -6,7 +6,9 @@ $(document).ready(function () {
 	$('ul.subcateg').hide();//slidedown menu
 	$('ul.submenu').hide();//slidedown menu
 	
-	 var touchdevice = is_touch_device();
+	
+	// adding touch detection.
+	var touchdevice = is_touch_device();
 
   function is_touch_device() {
     return !!('ontouchstart' in window) ? 1 : 0;
@@ -37,7 +39,18 @@ $(document).ready(function () {
 	});
 	
 	$("#res-expand-drop img").click(function() {
+	  
+		// SEBASTIAN: this hides the video on the homepage
+		if($('video').hasClass("hide")) {
+		  $('video').removeClass("hide");
+		  $('.footer').removeClass("hide");
+		  //$('.home-logo').css('margin-bottom', '400px');
+    } else {
+		  $('video').addClass('hide');
+		  $('.footer').addClass("hide");
+		}
 		
+		/// SEBASTIAN: this controls interaction with the submenus on Site
 		if($("ul.navmain").hasClass("hide")) {
 			$("ul.navmain").removeClass("hide");
 		} else {

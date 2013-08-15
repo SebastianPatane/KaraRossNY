@@ -34,28 +34,44 @@
 	
 }
 
-@media (max-width: 1200px) {
+body.touch {
+  min-width: 0;
+}
 	
 .touch #res-expand-drop,
-	#res-go-back {
+.touch	#res-go-back {
 		display: block;
-		height: 30px;
-		width: 30px;
-		float: right;
-		margin: 13px 10px;
+
+		/*float: right;*/
+		/*margin: 13px 10px;*/
+		padding: 2px;
 		cursor: pointer;
-		border: 1px solid #d9a441;	
+		border: 1px solid #d9a441;
+		position: absolute;
+		top: 10px;
+  right: 10px;
 	}
+
+.touch  #res-go-back {
+  right: 50px;
+}
 .touch #res-expand-drop img,
 .touch #res-go-back img {
-			height: 100%;
-			width: 100%;	
+    height: 30px;
+    width: 30px;
 		}
 	
 .touch #res-go-back {
 		display: none;
 	}
-		
+
+.touch .freeshipping {
+  position: absolute;
+  right: 110px;
+  top: 7px;
+  z-index: 99999999999;
+  height: 45px;
+}
 .touch .stillloading {
 		display: none;	
 	}
@@ -67,6 +83,7 @@
 .touch .persnav {
 		background: none repeat scroll 0 0 rgba(197, 171, 99, 1);;
 		height: auto;	
+		
 	}
 	
 .touch .persnav > .navmain > li {
@@ -90,17 +107,34 @@
 		position: relative;
 	}
 	
-.touch #sublogobg {
+.touch .footer {
+  height: auto;
+}
+
+
+.touch #wrapper {
+  height: auto;
+}
+	
+.touch #sublogobg,
+.touch .home-logo {
 		background: #fff;
 		
-		left: 0px;
+		left: 0px !important;
 		margin: 0px 0px 0px 0px;
 		right: auto;
 		top: 0px;
-		height: 63px;
-		width: 100%;
+		height: 63px !important;
+		width: 100% !important;
 	}
-	
+.touch .home-logo {	
+	position: absolute !important;
+
+  left: 0  !important;
+  width: 100%  !important;
+  margin-left: 0  !important;
+  top: 0  !important;
+}
 .touch .persnav > .navmain {
 		margin-top: 0px;
 		position: fixed;
@@ -110,7 +144,10 @@
 .touch .hide {
 		display: none;	
 	}
-	
+.touch video {
+  z-index: 100;
+  margin: 60px 0px 21px 0px !important;
+}
 .touch .persnav > .navmain li {
 		margin: 0px;	
 	}
@@ -120,10 +157,14 @@
 	}
 	
 .touch .navmain > li > div:hover {
-		background: none repeat scroll 0 0 rgba(197, 171, 99, 1);	
+		/*background: none repeat scroll 0 0 rgba(197, 171, 99, 1);	/*
+		 * 
+		 */
+		background: red;
 	}
 	
-.touch #sublogobg h1 {
+.touch #sublogobg h1,
+.touch .home-logo h1 {
 		text-align: left;
 		top: 0px;
 		left: 0px;
@@ -131,9 +172,10 @@
 		height: auto;
 	}
 	
-.touch #sublogobg h1 img {
+.touch #sublogobg h1 img,
+.touch .home-logo h1 img {
 		height: 40px;
-		width: 90px;
+		width: 90px !important;
 		margin-left: 10px;
 		margin-top: 10px;
 	}
@@ -169,4 +211,8 @@
 		position: relative;	
 	}
 	
+.touch #videocontrol {
+  position: absolute;
+  top: 22px;
+  right: 190px;
 }
