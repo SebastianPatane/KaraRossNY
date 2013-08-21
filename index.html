@@ -66,12 +66,16 @@ function is_touch_device() {
 <body cz-shortcut-listen="true">  
 
 
-<!-- // BKR: Responsive Top Menu --> 
-<div class="show-for-small"><a href="javascript:void(0)" id="showResponsiveMenu" class="btn-responsive-menu">Menu</a></div>
+<!-- // BKR: Responsive Top Menu BEGIN--> 
+<div class="show-for-small">
+  <!-- img src="Kara_by Kara_Ross_files/karalogobw.png" alt="Kara by Kara Ross logo" title="Kara by Kara Ross" style="z-index: 9999;">
+  <img class="tagline" src="Kara_by Kara_Ross_files/occassionsnew.png" alt="Occasions are just an excuse" style="z-index: 10005;" -->
+  <a href="javascript:void(0)" id="showResponsiveMenu" class="btn-responsive-menu">Menu</a>
+</div>
 <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left show-for-small" id="cbp-spmenu-s1">
 <img src="assets_responsive/karalogobw.png" alt="Kara by Kara Ross logo" title="Kara by Kara Ross" class="logo-responsive">
 <ul id="sideMainNav" class="nav-bar">
-    <li class="has-flyout"><a href="#">About</a>
+    <li class="has-flyout"><a href="#" class="flyout-toggle">About</a>
         <ul class="flyout">
             <li><a href="#">Biography</a></li>
             <li><a href="#">Inspiration</a></li>
@@ -79,7 +83,7 @@ function is_touch_device() {
             <li><a href="#">Contact Us</a></li>
         </ul>
     </li>
-    <li class="has-flyout"><a href="#">Shop</a>
+    <li class="has-flyout"><a href="#" class="flyout-toggle">Shop</a>
         <ul class="flyout">
             <li><a href="#">Kara By Kara Ross</a>
                 <ul>
@@ -106,7 +110,7 @@ function is_touch_device() {
             </li>
         </ul>
     </li>
-    <li class="has-flyout"><a href="#">As seen in</a>
+    <li class="has-flyout"><a href="#" class="flyout-toggle">As seen in</a>
         <ul class="flyout">
             <li><a href="#">Editorial</a></li>
             <li><a href="#">Celebrity</a></li>
@@ -118,14 +122,13 @@ function is_touch_device() {
     <li><a href="#">Be Social</a></li>
 </ul>
 </nav>
-<!-- // BKR: Responsive Top Menu --> 
+<!-- // BKR: Responsive Top Menu END--> 
 
         
 <div id="header" style="background-image: url(http://www.karabykaraross.com/images/page/52/layout/kara-header-homebnwhite.png); right: 0px; height: 225px; background-color: transparent;"><!-- persistent navigation all pages except 'HOME'-->
 	
     <div id="header-menu" style="position:fixed; top:0; left:0;">
-        
-        <div id="logo" class="show-for-large"><h1><a href="http://www.karabykaraross.com/index.php?&page=home&storeid=52&sess=store52"><img src="./Kara_by Kara_Ross_files/karalogobw.png" alt="Kara by Kara Ross logo" title="Kara by Kara Ross"></a></h1></div>
+        <div id="logo"><h1><a href="http://www.karabykaraross.com/index.php?&page=home&storeid=52&sess=store52"><img src="./Kara_by Kara_Ross_files/karalogobw.png" alt="Kara by Kara Ross logo" title="Kara by Kara Ross"></a></h1></div>
         
         <ul style="margin:0; padding:0;" class="show-for-large">
 			<li id="li-kara"><a href="javascript:void(0);">About</a>
@@ -166,7 +169,7 @@ function is_touch_device() {
         </ul>
     </div>
 
-	<img class="tagline show-for-large" src="./Kara_by Kara_Ross_files/occassionsnew.png" alt="Occasions are just an excuse" style="z-index: 10005;">
+	<img class="tagline " src="./Kara_by Kara_Ross_files/occassionsnew.png" alt="Occasions are just an excuse" style="z-index: 10005;">
     <img src="./Kara_by Kara_Ross_files/freeshipnew.png" class="freeshipping show-for-large" style="z-index: 10005;">
     
     <div id="shoppingbag" class="topicon"></div>
@@ -256,10 +259,16 @@ $(function(){
 	height:'100%'
 	})
 	*/
+	
+	
+	/* // BKR: removed appending scripts.
 	$('.tagline').css('z-index','10005').appendTo($('#header'));
 	$('.freeshipping').css('z-index','10005').appendTo($('#header'));
 	$('#shoppingbag').appendTo($('#header'));
 	$('#skyline').css('background-image','none');
+	*/
+	
+	
 	/*$('#header').css('background-image','url(http://www.karabykaraross.com/images/page/52/layout/kara-header-homebnwhite.png)'.css('right', '0px').css('height','225px').css("background-color","transparent");*/
 	//$('.footer').css('background','rgba(255,255,255,0)');
 	/*
@@ -316,6 +325,7 @@ $(function(){
 <img src="./Kara_by Kara_Ross_files/52_425_kR.jpg" style="display: none;"><img src="./Kara_by Kara_Ross_files/52_425_image8NEW.jpg" style="display: none;"><img src="./Kara_by Kara_Ross_files/52_425_image7NEW.jpg" style="display: none;"></div>
 
 <script type="text/javascript">
+/*
 $(document).ready(function() {
 $(document).bind('afterFadeIn', function(e, img){});
 	$('.homepageeffect img').slideshowify({
@@ -326,6 +336,7 @@ aniSpeedMin : 8000,
 aniSpeedMax : 12000 
 });
 });
+*/
 </script>
 
 

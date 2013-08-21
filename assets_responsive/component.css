@@ -34,7 +34,9 @@
 .nav-bar > li .flyout { display: none; }
 .nav-bar > li.has-flyout > a:first-child { padding-right: 40px; position: relative; }
 .nav-bar > li.has-flyout > a:first-child:after { content: ""; display: block; width: 0; height: 0; border: solid 4px; border-color: #e6e6e6 transparent transparent transparent; position: absolute; right: 20px; top: 17px; }
+/*
 .nav-bar > li.has-flyout > a.flyout-toggle { border-left: 0 !important; position: absolute; right: 0; top: 0; padding: 20px; z-index: 2; display: block; }
+*/
 .nav-bar > li.has-flyout.is-touch > a:first-child { padding-right: 55px; }
 .nav-bar > li.has-flyout.is-touch > a.flyout-toggle { border-left: 1px dashed #666; }
 .nav-bar > li > a:first-child { position: relative; padding: 0 20px; display: block; text-decoration: none; font-size: 14px; }
@@ -51,7 +53,9 @@
 .nav-bar > li { float: none; display: block; border-right: none; }
 .nav-bar > li > a.main { text-align: left; border-top: none; border-right: none; }
 .nav-bar > li:first-child > a.main { border-top: none; }
+/*
 .nav-bar > li.has-flyout > a.flyout-toggle { position: absolute; right: 0; top: 0; padding: 22px; z-index: 2; display: block; }
+*/
 .nav-bar > li.has-flyout.is-touch > a.flyout-toggle span { content: ""; width: 0; height: 0; display: block; }
 .nav-bar > li.has-flyout > a.flyout-toggle:hover span { border-top-color: #141414; }
 .nav-bar.vertical > li.has-flyout > .flyout { left: 0; }
@@ -82,27 +86,30 @@ ul.flyout li.active a, .nav-bar li ul li.active a { background: #4d4d4d; border:
 }
 
 .btn-responsive-menu {
-	width:30px;
-	height:30px;
-	position:absolute;
-	top:10px;
-	right:10px;
-	background:url(btn-menu.png) top left no-repeat #3DB1C1;
-	border:none;
-	z-index:9999999999;
-	text-indent:-4000px;
-	overflow:hidden;
-	border-radius:3px;
+	width: 80px;
+  height: 30px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: url(btn-menu.png) top right no-repeat #3DB1C1;
+  border: none;
+  z-index: 9999999999;
+  overflow: hidden;
+  border-radius: 3px;
+  line-height: 30px;
+  padding-left: 5px;
+  text-decoration: none;
 }
 
 .btn-responsive-menu:hover {
-	background:url(btn-menu.png) top left no-repeat #000;
+	background:url(btn-menu.png) top right no-repeat #000;
 }
 
 .cbp-spmenu {
 	background: #000;
 	position: fixed;
 	opacity:0.9;
+	overflow: scroll;
 }
 
 .cbp-spmenu h3 {
@@ -195,6 +202,28 @@ ul.flyout li.active a, .nav-bar li ul li.active a { background: #4d4d4d; border:
 		bottom: -110px;
 	}
 
+}
+@media screen and (max-width: 780px){
+  .btn-responsive-menu {
+    top: 18px;
+  }
+}
+
+@media screen and (max-width: 481px){
+  img.tagline {
+    top: 28px;
+    height: 15px;
+  }
+  
+  #logo h1 img {
+    margin-left: 15px;
+    margin-top: 20px;
+    height: 30px;
+  } 
+  
+  #homerow  {
+    width: auto;
+  }
 }
 
 @media screen and (max-height: 26.375em){
