@@ -20,6 +20,7 @@
 
 }
 
+
 /* General styles for all menus */
 
 .nav-bar { height: 40px; background: #000; margin-left: 0; margin-top: 20px; padding: 0; }
@@ -222,8 +223,37 @@ ul.flyout li.active a, .nav-bar li ul li.active a { background: #4d4d4d; border:
   } 
   
   #homerow  {
-    width: auto;
+    width: 100%;
+    margin-left: 15px;
+    left: 0px;
+    top: 70px;
+    position: absolute;
+    height: auto;
+    bottom: auto;
+    z-index: 10080;
   }
+  #homerow a {
+
+  }
+  #homerow a img {
+    float: none;
+    margin: 0 0 10px 0;
+  }
+  
+  
+  /* clearfix */
+
+  .cf:before,
+  .cf:after {
+      content: " "; /* 1 */
+      display: table; /* 2 */
+  }
+  
+  .cf:after {
+      clear: both;
+  }
+  
+
 }
 
 @media screen and (max-height: 26.375em){
