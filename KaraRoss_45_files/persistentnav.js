@@ -11,21 +11,23 @@ $(document).ready(function() {
   
   
 if(touchdevice === 1) {
-//menu code
-$('.navmain li').hover(
-
-function () {
-$(this).find('div').css('z-index','999999').end().find('ul.submenu').css('z-index','999999').end();
-$(this).css('z-index','10006');
-$('ul.submenu', this).stop(true, true).slideDown(200);
-},
-
-function () {
-$(this).find('div').css('z-index','10003').end().find('ul.submenu').css('z-index','10003').end();
-$(this).css('z-index','10003');
-$('ul.submenu', this).stop(true, true).slideUp(200);
-
-});
+  //menu code
+  /*
+  $('.navmain li').hover(
+  
+  function () {
+  $(this).find('div').css('z-index','999999').end().find('ul.submenu').css('z-index','999999').end();
+  $(this).css('z-index','10006');
+  $('ul.submenu', this).stop(true, true).slideDown(200);
+  },
+  
+  function () {
+  $(this).find('div').css('z-index','10003').end().find('ul.submenu').css('z-index','10003').end();
+  $(this).css('z-index','10003');
+  $('ul.submenu', this).stop(true, true).slideUp(200);
+  
+  });
+  */
 } else {
 $('.navmain li').hover(
 			
